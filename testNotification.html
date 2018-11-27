@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <style>
+            body {
+                text-align: center;
+                background: #FFF;
+                color: #000;
+            }
+            a {
+                color: #000;
+                font-size: 24px;
+            }
+            p {
+                font-size: 24px;
+            }
+            Button {
+                font-size: 30px;
+            }
+            Button:focus Button:hover {
+                background-color: #FFF;
+            }
+        </style>
+        <script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/notification.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <p>Enter message for notification</p><br/>
+        <form>
+            <input type="text" id="msg">
+            <button type="submit" onclick="notifyId('msg')">NOTIFY!</button>
+        </form>
+    </body>
+</html>

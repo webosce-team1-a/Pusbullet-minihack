@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Bubbler+One|Carme|Duru+Sans|Encode+Sans|Encode+Sans+Semi+Expanded|Fira+Sans|Jaldi|Krub|Lekton|Maitree|Nanum+Gothic|Noto+Sans|Shanti');
+/*
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Jaldi', sans-serif;
+    font-family: 'Shanti', sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Bubbler One', sans-serif;
+    font-family: 'Maitree', serif;
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Lekton', sans-serif;
+    font-family: 'Duru Sans', sans-serif;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Carme', sans-serif;
+*/
+
+body{
+    background-color: #484a4c;
+    font-family: 'Nanum Gothic', sans-serif;
+}
